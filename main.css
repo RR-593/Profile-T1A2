@@ -527,7 +527,7 @@ footer {
 
 /* Phone
 */
-@media (min-width: 300px) {
+@media (min-width: 326px) {
   .flexboxMain{
     display: block;
   }
@@ -539,13 +539,17 @@ footer {
     padding: 1em;
   }
   .flexboxNav {
-    top: 18px;
-    left: 46%;
+    top: 0px;
+    left: 32%;
     right: 0%;
   }
   nav {
-    padding: 4px 13px;
-    padding-bottom: 9px;
+    padding: 7px 13px;
+    padding-bottom: 12px;
+  }
+  h1, .buttonNav {
+
+    font-size: large;
   }
 }
 
