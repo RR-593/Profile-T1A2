@@ -527,7 +527,7 @@ footer {
 
 /* Phone
 */
-@media (min-width: 326px) {
+@media (min-width: 300px) {
   .flexboxMain{
     display: block;
   }
