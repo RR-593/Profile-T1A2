@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphael&rsquo;s Resume</title>
+    <link href="main.css" rel="stylesheet"/>      
+    <script type="text/javascript" src="javarscript.js"></script> 
+</head>
+
+
+<body>
+    <nav>
+        <h1>Portfolio</h1>
+        <section class="flexboxNav">
+            <button class="buttonNav"><span>About me</span></button>
+            <button class="buttonNav"><span>Work history</span></button>
+            <button class="buttonNav"><span>Contact</span></button>
+            <button class="buttonNav"><span>Blog</span></button>
+        </section>
+    </nav>
+   
+    <!--Random fortune rf()-->
+    <div id="fortune">
+        <noscript>Sorry, your browser does not support JavaScript!</noscript>
+        <script>rf()</script>
+    </div> 
+
+    <main>
+        </br>
+        </br>
+        <section include-html="aboutMe.html"></section>
+        </br>
+        </br>
+        <section include-html="workHistory.html"></section>
+        </br>
+        </br>
+        <section include-html="contact.html"></section>
+        </br>
+        </br>
+        <section include-html="blog.html"></section>
+        <script>includeHTML()</script>
+    </main>
+
+    <footer><h6>Copyright &copy; Raphael Munoz 2021</h6></footer>
+
+</body>
+
+</html>
