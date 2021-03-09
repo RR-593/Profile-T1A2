@@ -547,8 +547,10 @@ footer {
     padding: 7px 13px;
     padding-bottom: 12px;
   }
+  .buttonNav {
+    top:0px;
+  }
   h1, .buttonNav {
-
     font-size: large;
   }
 }
@@ -576,6 +578,12 @@ footer {
     left: 38%;
     right: 0%;
   }
+  .buttonNav {
+    font-size: x-large;
+  }
+  h1 {
+    font-size: 48px;
+  }
 }
 
 /* Desktop
@@ -599,6 +607,12 @@ footer {
   #fortune {
     padding: 2em 4em; 
   }
+  .buttonNav {
+    font-size: x-large;
+  }
+  h1 {
+    font-size: 48px;
+  }
 }
 
 /* Big Desktop
@@ -617,9 +631,17 @@ footer {
   .flexboxNav {  
     top: 52px;
     left: 640px;
+    right: 0;
+    bottom: auto;
   }
   #fortune {
     padding: 4em 8em; 
+  }
+  .buttonNav {
+    font-size: x-large;
+  }
+  h1 {
+    font-size: 48px;
   }
 }
 
