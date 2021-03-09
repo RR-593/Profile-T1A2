@@ -68,8 +68,6 @@ function rf(){
     document.getElementById('fortune').innerHTML = quotes[ranNum]
 }
 
-
-
 /* Add HTML snippits
 Code taken from:
 https://www.w3schools.com/howto/howto_html_include.asp
