@@ -10,14 +10,14 @@
 </head>
 
 
-<body>
+<body id="aboutMe">
     <nav>
         <h1>Portfolio</h1>
         <section class="flexboxNav">
-            <button class="buttonNav"><span>About me</span></button>
-            <button class="buttonNav"><span>Work history</span></button>
-            <button class="buttonNav"><span>Contact</span></button>
-            <button class="buttonNav"><span>Blog</span></button>
+            <a id="button" class="buttonNav" href="#aboutMe"><span>About me</span></a>
+            <a id="button" class="buttonNav" href="#workHistory"><span>Work history</span></a>
+            <a id="button" class="buttonNav" href="#contact"><span>Contact</span></a>
+            <a id="button" class="buttonNav" href="#blog"><span>Blog</span></a>
         </section>
     </nav>
    
@@ -29,11 +29,11 @@
 
     <main>
         </br></br>
-        <section include-html="aboutMe.html"></section>
+        <section id="workHistory" include-html="aboutMe.html"></section>
         </br></br>
-        <section include-html="workHistory.html"></section>
+        <section id="contact" include-html="workHistory.html"></section>
         </br></br>
-        <section include-html="contact.html"></section>
+        <section id="blog" include-html="contact.html"></section>
         </br></br>
         <section include-html="blog.html"></section>
         <script>includeHTML()</script>
