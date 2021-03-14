@@ -5,6 +5,7 @@
 ## Purpose
 
 This website was built for the purpose of showcasing my web disign and building skills. AS well as personality and body of work to potential employers, co-workers and collaborators.
+
 ---
 ## Functionality / features
 
@@ -16,6 +17,7 @@ This website was built for the purpose of showcasing my web disign and building 
 ---
 ## Sitemap
 ![sitemap](/SlideDeck/sitemap.png)
+
 ---
 ## Screenshots
 ### Buttons
@@ -26,10 +28,12 @@ This website was built for the purpose of showcasing my web disign and building 
 ![Fortune](/SlideDeck/Components/RanFort-Demonstrated.gif)
 ### Responsive
 ![Responsive](/SlideDeck/Components/Responsive.gif)
+
 ---
 ## Target audiance
 
 The target audiance are potential employers, co-workers and collaborators.
+
 ---
 ## Tech stack
 
