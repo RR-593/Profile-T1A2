@@ -388,7 +388,8 @@ nav {
   background: linear-gradient(180deg, rgba(18,38,32,1) 90%, rgba(0,0,0,1) 90%, rgba(0,0,0,0.39957990031950286) 92%, rgba(0,0,0,0) 96%); 
 }
 
-h1 {
+a h1 {
+  color: #f4ebd0;
   display: inline-block;
 }
 
@@ -493,9 +494,10 @@ img {
 video {
   display: block;
   width: 300px;
-  border: solid 10px #b68d40;
+  margin: 18px;
+  border: solid 10px #b68d40;            
+  margin-top: 16px; margin-bottom: 16px;
 }
-
 /* Hyperlinks
 =========================================================================================*/
 
