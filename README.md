@@ -17,13 +17,13 @@ The purpose of this website build is to showcase my skills, personality and body
 ![sitemap](/SlideDeck/sitemap.png)
 ### Screenshots
 #### Buttons
-![Buttons](/SlideDeck/components/Button-demo.gif)
+![Buttons](/SlideDeck/Components/Button-demo.gif)
 #### Embeded media
-![Media](/SlideDeck/components/Media.gif)
+![Media](/SlideDeck/Components/Media.gif)
 #### Random quotes
-![Fortune](/SlideDeck/components/RanFort-Demonstrated.gif)
+![Fortune](/SlideDeck/Components/RanFort-Demonstrated.gif)
 #### Responsive
-![Responsive](/SlideDeck/components/Responsive.gif)
+![Responsive](/SlideDeck/Components/Responsive.gif)
 ### Target audiance
 
 ### Tech stack
