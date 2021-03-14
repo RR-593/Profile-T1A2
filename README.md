@@ -4,8 +4,8 @@
 [Github repository](https://github.com/RR-593/Profile-T1A2 "RR-593/Profile-T1A2")
 ## Purpose
 
-The purpose of this website build is to showcase my skills, personality and body of work to potential employers, co-workers and collaborators.
-
+This website was built for the purpose of showcasing my web disign and building skills. AS well as personality and body of work to potential employers, co-workers and collaborators.
+---
 ## Functionality / features
 
     Random fortune quotes
@@ -18,16 +18,18 @@ The purpose of this website build is to showcase my skills, personality and body
 ![sitemap](/SlideDeck/sitemap.png)
 ---
 ## Screenshots
-#### Buttons
+### Buttons
 ![Buttons](/SlideDeck/Components/Button-demo.gif)
-#### Embeded media
+### Embeded media
 ![Media](/SlideDeck/Components/Media.gif)
-#### Random quotes
+### Random quotes
 ![Fortune](/SlideDeck/Components/RanFort-Demonstrated.gif)
-#### Responsive
+### Responsive
 ![Responsive](/SlideDeck/Components/Responsive.gif)
 ---
 ## Target audiance
+
+The target audiance are potential employers, co-workers and collaborators.
 ---
 ## Tech stack
 
