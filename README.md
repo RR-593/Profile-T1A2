@@ -1,5 +1,5 @@
 # Profile-T1A2
-[Profile webpage](https://rr-593.github.io/Profile-T1A2/ "Webpage")
+[Profile webpage](https://rr-593.github.io/Profile-T1A2/ "Webpage")</br>
 [Github repository](https://github.com/RR-593/Profile-T1A2 "RR-593/Profile-T1A2")
 ## Purpose
 
@@ -14,16 +14,16 @@ The purpose of this website build is to showcase my skills, personality and body
     Single page format
 
 ### Sitemap
-![sitemap](/rmPortforlio/SlideDeck/sitemap.png)
+![sitemap](/SlideDeck/sitemap.png)
 ### Screenshots
 #### Buttons
-![Buttons](/rmPortforlio/SlideDeck/components/Button-demo.gif)
+![Buttons](/SlideDeck/components/Button-demo.gif)
 #### Embeded media
-![Media](/rmPortforlio/SlideDeck/components/Media.gif)
+![Media](/SlideDeck/components/Media.gif)
 #### Random quotes
-![Fortune](/rmPortforlio/SlideDeck/components/RanFort-Demonstrated.gif)
+![Fortune](/SlideDeck/components/RanFort-Demonstrated.gif)
 #### Responsive
-![Responsive](/rmPortforlio/SlideDeck/components/Responsive.gif)
+![Responsive](/SlideDeck/components/Responsive.gif)
 ### Target audiance
 
 ### Tech stack
