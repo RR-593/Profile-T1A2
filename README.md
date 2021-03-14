@@ -4,7 +4,7 @@
 [Github repository](https://github.com/RR-593/Profile-T1A2 "RR-593/Profile-T1A2")
 ## Purpose
 
-This website was built for the purpose of showcasing my web disign and building skills. AS well as personality and body of work to potential employers, co-workers and collaborators.
+This website was built for the purpose of showcasing my web disign and building skills. As well as personality and body of work to potential employers, co-workers and collaborators.
 
 ---
 ## Functionality / features
