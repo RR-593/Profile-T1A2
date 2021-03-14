@@ -388,11 +388,6 @@ nav {
   background: linear-gradient(180deg, rgba(18,38,32,1) 90%, rgba(0,0,0,1) 90%, rgba(0,0,0,0.39957990031950286) 92%, rgba(0,0,0,0) 96%); 
 }
 
-a h1 {
-  color: #f4ebd0;
-  display: inline-block;
-}
-
 .flexboxNav {
   position: absolute;
   justify-content: center;
@@ -501,6 +496,13 @@ video {
 /* Hyperlinks
 =========================================================================================*/
 
+/* Title */
+a h1 {
+  color: #f4ebd0;
+  display: inline-block;
+}
+
+/* Buttons */
 a:link {
   color: #122620;
   background-color: transparent;
