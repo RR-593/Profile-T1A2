@@ -362,6 +362,7 @@ template {
 
 html {
   background-color: #d6ad60;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -468,7 +469,7 @@ button:hover span:after {
 /* Content
 =========================================================================================*/
 
-h2, p, h3, ul {
+h2, section p, h3, ul {
   color: #122620;
   background-color:  #d6ad60;
 }
@@ -486,6 +487,12 @@ img {
   margin: 18px;
   border: solid 10px #b68d40;            
   margin-top: 16px; margin-bottom: 16px;
+}
+
+video {
+  display: block;
+  width: 300px;
+  border: solid 10px #b68d40;
 }
 
 /* Hyperlinks
@@ -511,6 +518,27 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+p a:link {
+  color: #f4ebd0;
+  background-color: transparent;
+  text-decoration:none;
+}
+p a:visited {
+  color: #f4ebd0;
+  background-color: transparent;
+  text-decoration:none;
+}
+p a:hover {
+  color: #b68d40;
+  background-color: transparent;
+  text-decoration:none;
+}
+p a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration:none;
+}
+
 
 /* Footer
 =========================================================================================*/
