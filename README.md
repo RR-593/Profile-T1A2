@@ -1,6 +1,6 @@
 # Profile-T1A2
 ---
-[Profile webpage](https://rr-593.github.io/Profile-T1A2/ "Webpage")</br>
+[Profile webpage](https://rr-593.github.io/portfolio/ "Webpage")</br>
 [Github repository](https://github.com/RR-593/Profile-T1A2 "RR-593/Profile-T1A2")
 ## Purpose
 
