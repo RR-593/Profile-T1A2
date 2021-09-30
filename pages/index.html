@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raphael Munoz</title>
-    <link href="../stylescheets/main.css" rel="stylesheet"/>      
-    <script type="text/javascript" src="../scripts/javarscript.js"></script> 
-</head>
+    <link href="../stylesheets/main.css" rel="stylesheet"/>    
+    <script type="text/javascript" src="../scripts/javarscript.js"></script>
+  </head>
 
 
-<body id="aboutMe">
+  <body id="aboutMe">
     <nav>
-        <a href="https://rr-593.github.io/Profile-T1A2"><h1>Portfolio</h1></a>
-        <section class="flexboxNav">
-            <a id="button" class="buttonNav" href="#aboutMe"><span>About me</span></a>
-            <a id="button" class="buttonNav" href="#workHistory"><span>Work history</span></a>
-            <a id="button" class="buttonNav" href="#contact"><span>Contact</span></a>
-            <a id="button" class="buttonNav" href="#blog"><span>Blog</span></a>
-        </section>
+      <section class="flexboxNav"></section>
+        <a href="https://rr-593.github.io/Profile-T1A2" id="nameNav">Raphael Munoz</a>
+        <a id="button" class="buttonNav" href="#aboutMe"><span>About me</span></a>
+        <a id="button" class="buttonNav" href="#workHistory"><span>Work history</span></a>
+        <a id="button" class="buttonNav" href="#contact"><span>Contact</span></a>
+        <a id="button" class="buttonNav" href="#blog"><span>Blog</span></a>
+      </section>
     </nav>
-   
+
+    <!--Prallax background-->
+    <div id="bgimg-1"></div>
+    
     <!--Random fortune rf()-->
     <div id="fortune">
-        <noscript>Sorry, your browser does not support JavaScript!</noscript>
-        <script>rf()</script>
+      <noscript>Sorry, your browser does not support JavaScript!</noscript>
+      <script>rf()</script>
     </div> 
 
-    <main>
-        </br></br>
+    <!--Prallax background-->
+    <div id="bgimg-2">
+
+      <main id="main1">
         <section id="workHistory" include-html="../pages/aboutMe.html"></section>
         </br></br>
         <section id="contact" include-html="../pages/workHistory.html"></section>
         </br></br>
+      </main>
+    </div>
+    
+    <!--Prallax background-->
+    <div id="bgimg-3">
+
+      <main id="main2">
         <section id="blog" include-html="../pages/contact.html"></section>
         </br></br>
         <section include-html="../pages/blog.html"></section>
-        <script>includeHTML()</script>
-    </main>
+      </main>
+    </div> 
 
-    </br>
+    <script>includeHTML()</script>
     <footer><h6>Copyright &copy; Raphael Munoz 2021</h6></footer>
-
-</body>
+    
+  </body>
 
 </html>
