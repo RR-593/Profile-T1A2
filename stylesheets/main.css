@@ -461,7 +461,6 @@ nav {
 
 #bgimg-1, #bgimg-2, #bgimg-3 {
   position: relative;
-  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -471,17 +470,17 @@ nav {
 #bgimg-1 {
   background-origin: border-box;
   margin-top: -5.5px;
-  background-image: url("../media/images/background_profile.jpg");
+  background-image: linear-gradient(rgba(255, 230, 249, 0.5), rgba(255, 230, 249, 0.5)), url("../media/images/background_profile.jpg");
   min-height: 81%;
 }
 
 #bgimg-2 {
-  background-image: url("../media/images/background_retro.jpg");
+  background-image: linear-gradient(rgba(255, 230, 249, 0.5), rgba(255, 230, 249, 0.5)), url("../media/images/background_retro.jpg");
   min-height: 900px;
 }
 
 #bgimg-3 {
-  background-image: url("../media/images/background_woods.jpg");
+  background-image: linear-gradient(rgba(255, 230, 249, 0.5), rgba(255, 230, 249, 0.5)), url("../media/images/background_woods.jpg");
   min-height: 2300px;
 }
   
