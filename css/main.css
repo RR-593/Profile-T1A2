@@ -1,10 +1,80 @@
+:root{
+	--border-gradiant-percent1: 15%;
+	--border-gradiant-percent2: 85%;
+}
+
+* {
+	font-family: "Courier New", Courier, monospace;
+	font-family: 'Ubuntu Mono', monospace;
+	color: whitesmoke;
+}
 
 body {
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 64em;
+
+	text-align: center;
+
 	background: black;
 	overflow: hidden;
 }
 
-h1, h2{
-	color: aliceblue;
+
+.skillset{
+	background: linear-gradient(black, black) 50% 50%/calc(100% - 6px) calc(100% - 6px) no-repeat, 
+							linear-gradient(0deg, whitesmoke 0%, whitesmoke var(--border-gradiant-percent1), 
+														black var(--border-gradiant-percent1), black var(--border-gradiant-percent2), 
+														whitesmoke var(--border-gradiant-percent2), whitesmoke 100%);
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 32em;
+
+	text-align: center;
+}
+
+.skillsets{
+	position: relative;
+	top: -1em;
+}
+
+h2.skillheader{
+	position: relative;
+	top: -0.5em;
+	margin-top: 0.4em;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 11em;
+
+	text-align: center;
+	background: black;
+}
+
+.underline {
+	height: 2px;
+	margin: 0 auto;
+	width: 0;
+	transition: width .25s linear;
+}
+
+#php{
+	color: darkviolet;
+}
+
+#html{
+	color: deepskyblue;
+}
+
+#ruby{
+	color: brown;
+}
+
+#css{
+	color: coral;
+}
+
+#js{
+	color: lightseagreen;
 }
