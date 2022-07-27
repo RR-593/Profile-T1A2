@@ -80,7 +80,7 @@ h2.skillheader{
 	transition: width .25s linear;
 }
 
-*:hover>.underline, .active>.underline {
+*:hover>.underline, .selected>.underline {
 	width: 100%;
 }
 
@@ -89,12 +89,21 @@ h2.skillheader{
 	cursor: pointer;
 }
 
-.skill-modals {
+.skill-modal {
 	visibility: hidden;
 	transition: opacity 0.5s linear;
 	margin-top: 0px;
 	position: absolute;
 	z-index: -100;
+}
+
+.shown {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0px;
+	position: absolute;
+	z-index: 1;
+	background-color: turquoise;
 }
 
 .htmmlcss-color {
