@@ -1,10 +1,11 @@
-button = document.querySelectorAll('.skill-button');
+skillButtons = document.querySelectorAll('.skill-button');
 
-for (let button of lang_buttons) {
+for (let button of skillButtons) {
   button.addEventListener('click', () => {
     if (button.className.includes('shown')) {
-      button.className = 'lang-button';
+      button.classList.remove('shown');
+      return;
     }
-    button.className = 'skill-button shown';
+    button.classList.add('shown');
   });
 }
