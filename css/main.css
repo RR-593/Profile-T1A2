@@ -84,26 +84,29 @@ h2.skillheader{
 	width: 100%;
 }
 
-.skill, .button{
+.skill, .button {
 	display: inline-block;
 	cursor: pointer;
 }
 
+#all-modals {
+	transition: height 0.5s linear;
+}
+
 .skill-modal {
-	visibility: hidden;
-	transition: opacity 0.5s linear;
-	margin-top: 0px;
+	opacity: 0;
 	position: absolute;
-	z-index: -100;
+	height: 100%;
+	left: 0;
+	width: 100%;
+	background-color: black;
+	transition: opacity 0.5s linear;
 }
 
 .shown {
 	visibility: visible;
 	opacity: 1;
 	margin-top: 0px;
-	position: absolute;
-	z-index: 1;
-	background-color: turquoise;
 }
 
 .htmmlcss-color {

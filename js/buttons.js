@@ -1,22 +1,35 @@
 const skillButtons = document.querySelectorAll('.skill');
 const modals = document.querySelectorAll('.skill-modal');
+const divModal = document.getElementById('all-modals');
 
-for (let button of skillButtons) {
+skillButtons.forEach(button => {
   button.addEventListener('click', () => {
     
     var modal = document.getElementById(button.getAttribute('modal-name'));
-
-    if (button.className.includes('selected')) {
-      button.classList.remove('selected');
-      modal.classList.remove('shown');
+    var boolSelected = button.className.includes('selected');
+    if (boolSelected) {
+      cleanElements(boolSelected)
+      
       return;
     }
 
-    for (let button of skillButtons) {button.classList.remove('selected');}
-    for (let modal of modals) {modal.classList.remove('shown');}
+    cleanElements(boolSelected)
+
+    var rect = modal.getBoundingClientRect();
+    modal.style.height = "calc( 100% - "+rect.top.toString().substring(0, 7)+"px)";
+    divModal.style.height = 400+"px";
 
     button.classList.add('selected');
-
     modal.classList.add('shown');
   });
+});
+
+function cleanElements(boolSelected){
+  skillButtons.forEach(button => {button.classList.remove('selected');});
+  modals.forEach(modal => {
+    modal.classList.remove('shown');
+    modal.style.removeProperty('height');
+    boolSelected ? setTimeout(() => {modal.style.zIndex= -1;}, 500) : modal.style.zIndex= 1;
+  });
+  divModal.style.height = "0px";
 }
