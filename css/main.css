@@ -24,6 +24,12 @@ a {
 	text-decoration: none; 
 }
 
+h1 {
+	font-size: 3em;
+	margin: 0.3em 0 0 0;
+	height: 50px;
+}
+
 
 .skillset{
 	background: linear-gradient(black, black) 50% 50%/calc(100% - 6px) calc(100% - 6px) no-repeat, 
