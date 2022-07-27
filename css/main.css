@@ -39,12 +39,13 @@ h1 {
 
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 0.5em;
 	width: 32em;
 
 	text-align: center;
 }
 
-.skillsets{
+.skillset-list{
 	position: relative;
 	top: -1em;
 }
