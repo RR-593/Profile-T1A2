@@ -1,6 +1,5 @@
 # Portfolio
 
----
 [\[Portfolio webpage\]](https://rr-593.github.io/portfolio/ "Portfolio")</br>
 [\[Github repo\]](https://github.com/RR-593/portfolio "RR-593/portfolio")
 
