@@ -20,6 +20,10 @@ body {
 	overflow: hidden;
 }
 
+a { 
+	text-decoration: none; 
+}
+
 
 .skillset{
 	background: linear-gradient(black, black) 50% 50%/calc(100% - 6px) calc(100% - 6px) no-repeat, 
@@ -53,28 +57,45 @@ h2.skillheader{
 }
 
 .underline {
+	display: block;
 	height: 2px;
 	margin: 0 auto;
 	width: 0;
 	transition: width .25s linear;
 }
 
-#php{
-	color: darkviolet;
+*:hover>.underline, .active>.underline {
+	width: 100%;
 }
 
-#html{
-	color: deepskyblue;
+.skill-button{
+	display: inline-block;
+	cursor: pointer;
 }
 
-#ruby{
-	color: brown;
+.htmmlcss-color {
+	background: rgb(255,210,49);
+	background: linear-gradient(90deg, rgba(255,210,49,1) 0%, rgba(255,69,46,1) 94%, rgba(255,28,0,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
-#css{
-	color: coral;
-}
+.instagram-color {
+	background: rgb(255,246,170);
 
-#js{
-	color: lightseagreen;
+	/*
+	background: -webkit-radial-gradient(bottom left, #fff6aa, #ffa621,#ff21b5,#7a12db,#4e0dff);
+	background: -moz-radial-gradient(bottom left, #fff6aa, #ffa621,#ff21b5,#7a12db,#4e0dff);
+	*/
+
+	background: linear-gradient(60deg, rgba(255,246,170,1) 0%, rgba(255,166,33,1) 30%, rgba(255,33,181,1) 60%, rgba(122,18,219,1) 80%,rgba(78,13,255,1) 93%);
+	background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+	
 }
