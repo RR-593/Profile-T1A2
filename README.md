@@ -1,60 +1,16 @@
-# Profile-T1A2
+# Portfolio
 
 ---
-[Profile webpage](https://rr-593.github.io/portfolio/ "Webpage")</br>
-[Github repository](https://github.com/RR-593/Profile-T1A2 "RR-593/Profile-T1A2")
+[Portfolio webpage](https://rr-593.github.io/portfolio/ "Portfolio")</br>
+[Github repo](https://github.com/RR-593/portfolio "RR-593/portfolio")
 
-## Purpose
+## Description
 
-This website was built for the purpose of showcasing my web disign and building skills. As well as personality and body of work to potential employers, co-workers and collaborators.
-
----
-
-## Functionality / features
-
-    Random fortune quotes
-    Animated buttons
-    Embeded image and video media
-    Responsive design
-    Single page format
----
-
-## Sitemap
-
-![sitemap](/SlideDeck/sitemap.png)
-
----
-
-## Screenshots
-
-### Buttons
-
-![Buttons](/SlideDeck/Components/Button-demo.gif)
-
-### Embeded media
-
-![Media](/SlideDeck/Components/Media.gif)
-
-### Random quotes
-
-![Fortune](/SlideDeck/Components/RanFort-Demonstrated.gif)
-
-### Responsive
-
-![Responsive](/SlideDeck/Components/Responsive.gif)
-
----
-
-## Target audiance
-
-The target audiance are potential employers, co-workers and collaborators.
-
----
+This is my personal portfolio webpage and was made so my skillls and projects can easly be acsessed and seen.
 
 ## Tech stack
 
     HTML
     CSS
     JavarScript
-    Visual Studio Code
 ---
