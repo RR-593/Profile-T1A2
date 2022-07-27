@@ -7,6 +7,7 @@
 	font-family: "Courier New", Courier, monospace;
 	font-family: 'Ubuntu Mono', monospace;
 	color: whitesmoke;
+	cursor: default;
 }
 
 body {
@@ -29,7 +30,6 @@ h1 {
 	margin: 0.3em 0 0 0;
 	height: 50px;
 }
-
 
 .skillset{
 	background: linear-gradient(black, black) 50% 50%/calc(100% - 6px) calc(100% - 6px) no-repeat, 
@@ -64,6 +64,8 @@ h2.skillheader{
 }
 
 .underline {
+
+	background-color: whitesmoke;
 	display: block;
 	height: 2px;
 	margin: 0 auto;
@@ -80,6 +82,14 @@ h2.skillheader{
 	cursor: pointer;
 }
 
+.skill-modals {
+	visibility: hidden;
+	transition: opacity 0.5s linear;
+	margin-top: 0px;
+	position: absolute;
+	z-index: -100;
+}
+
 .htmmlcss-color {
 	background: rgb(255,210,49);
 	background: linear-gradient(90deg, rgba(255,210,49,1) 0%, rgba(255,69,46,1) 94%, rgba(255,28,0,1) 100%);
@@ -92,17 +102,10 @@ h2.skillheader{
 
 .instagram-color {
 	background: rgb(255,246,170);
-
-	/*
-	background: -webkit-radial-gradient(bottom left, #fff6aa, #ffa621,#ff21b5,#7a12db,#4e0dff);
-	background: -moz-radial-gradient(bottom left, #fff6aa, #ffa621,#ff21b5,#7a12db,#4e0dff);
-	*/
-
 	background: linear-gradient(60deg, rgba(255,246,170,1) 0%, rgba(255,166,33,1) 30%, rgba(255,33,181,1) 60%, rgba(122,18,219,1) 80%,rgba(78,13,255,1) 93%);
 	background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-	
 }
