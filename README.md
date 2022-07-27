@@ -6,7 +6,7 @@
 
 ## Description
 
-This is my personal por    tfolio webpage and was made so my skillls and projects can easly be acsessed and seen.
+This is my personal portfolio webpage and was made so my skillls and projects can easly be acsessed and seen.
 
 ## Tech stack
 
