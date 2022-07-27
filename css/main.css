@@ -84,7 +84,7 @@ h2.skillheader{
 	width: 100%;
 }
 
-.skill-button{
+.skill, .button{
 	display: inline-block;
 	cursor: pointer;
 }
