@@ -17,7 +17,7 @@ skillButtons.forEach(button => {
 
     var rect = modal.getBoundingClientRect();
     modal.style.height = "calc( 100% - "+rect.top.toString().substring(0, 7)+"px)";
-    divModal.style.height = 400+"px";
+    divModal.style.height = 700+"px";
 
     button.classList.add('selected');
     modal.classList.add('shown');

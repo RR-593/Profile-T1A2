@@ -1,6 +1,7 @@
 :root{
 	--border-gradiant-percent1: 15%;
 	--border-gradiant-percent2: 85%;
+	--background-colour: rgb(24, 24, 24);
 }
 
 * {
@@ -24,7 +25,7 @@ body {
 
 	text-align: center;
 
-	background: black;
+	background: var(--background-colour);
 	overflow: hidden;
 }
 
@@ -38,16 +39,21 @@ h1 {
 	height: 50px;
 }
 
+.age{
+	margin-top: 1.5em;
+}
+
 .skillset{
-	background: linear-gradient(black, black) 50% 50%/calc(100% - 6px) calc(100% - 6px) no-repeat, 
+	background: linear-gradient( var(--background-colour), var(--background-colour)) 50% 50%/calc(100% - 6px) calc(100% - 6px) no-repeat, 
 							linear-gradient(0deg, whitesmoke 0%, whitesmoke var(--border-gradiant-percent1), 
-														black var(--border-gradiant-percent1), black var(--border-gradiant-percent2), 
+														var(--background-colour) var(--border-gradiant-percent1), var(--background-colour) var(--border-gradiant-percent2), 
 														whitesmoke var(--border-gradiant-percent2), whitesmoke 100%);
 
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0.5em;
-	width: 32em;
+	margin-top: 3em;
+	margin-bottom: 0.5em;
+	width: 35em;
 
 	text-align: center;
 }
@@ -59,7 +65,7 @@ h1 {
 
 h2.skillheader{
 	position: relative;
-	top: -0.5em;
+	top: -0.65em;
 	margin-top: 0.4em;
 	margin-left: auto;
 	margin-right: auto;
@@ -67,7 +73,7 @@ h2.skillheader{
 	width: 11em;
 
 	text-align: center;
-	background: black;
+	background: var(--background-colour);
 }
 
 .underline {
@@ -99,9 +105,14 @@ h2.skillheader{
 	height: 100%;
 	left: 0;
 	width: 100%;
-	background-color: black;
+	background-color: var(--background-colour);
 	z-index: -1;
 	transition: opacity 0.5s linear;
+}
+
+.skill-modal>h2{
+
+	margin-top: 0.2em;
 }
 
 .shown {
@@ -128,4 +139,9 @@ h2.skillheader{
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+h2.socials{
+
+	margin-top: 2em;
 }
